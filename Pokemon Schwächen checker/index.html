@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale = 1.0">
+        <title> Pokemmon Schwächen Checker</title>
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Pokemon Schwächen Checker</h1>
+
+        <p>Wähle den Typ deines Pokemon</p>
+        <select id="typ1">
+            <option value="">Typ 1 auswählen</option>
+            <option value="normal">Normal</option> 
+            <option value="feuer">Feuer</option> 
+            <option value="wasser">Wasser</option> 
+            <option value="elektro">Elektro</option> 
+            <option value="pflanze">Pflanze</option> 
+            <option value="eis">Eis</option> 
+            <option value="kampf">Kampf</option> 
+            <option value="gift">Gift</option> 
+            <option value="boden">Boden</option>
+            <option value="flug">Flug</option>  
+            <option value="psycho">Psycho</option> 
+            <option value="käfer">Käfer</option> 
+            <option value="gestein">Gestein</option> 
+            <option value="geist">Geist</option> 
+            <option value="drache">Drache</option> 
+            <option value="unlicht">Unlicht</option> 
+            <option value="stahl">Stahl</option> 
+            <option value="fee">Fee</option> 
+        </select>
+
+        <select id="typ2">
+             <option value="">Typ 2 auswählen</option>
+            <option value="">Kein zweiter Typ</option>
+            <option value="normal">Normal</option> 
+            <option value="feuer">Feuer</option> 
+            <option value="wasser">Wasser</option> 
+            <option value="elektro">Elektro</option> 
+            <option value="pflanze">Pflanze</option> 
+            <option value="eis">Eis</option> 
+            <option value="kampf">Kampf</option> 
+            <option value="gift">Gift</option> 
+            <option value="boden">Boden</option>
+            <option value="flug">Flug</option>  
+            <option value="psycho">Psycho</option> 
+            <option value="käfer">Käfer</option> 
+            <option value="gestein">Gestein</option> 
+            <option value="geist">Geist</option> 
+            <option value="drache">Drache</option> 
+            <option value="unlicht">Unlicht</option> 
+            <option value="stahl">Stahl</option> 
+            <option value="fee">Fee</option> 
+        </select>
+        <button onclick="schwaechenBerechnung()">
+            Schwächen anzeigen
+        </button>
+        <div id="ergebnis"></div>
+        <script src="script.js"></script>
+    </body>
+</html>
